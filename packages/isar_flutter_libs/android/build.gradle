@@ -1,4 +1,4 @@
-group 'com.plane.so'
+group 'dev.isar.isar_flutter_libs'
 version '1.0'
 
 buildscript {
@@ -22,9 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    if (project.android.hasProperty("namespace")) {
-        namespace 'com.plane.so'
-    }
+    namespace "com.plane.so.isar_flutter_libs"
     compileSdkVersion 30
 
     defaultConfig {
