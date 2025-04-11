@@ -1,4 +1,4 @@
-package dev.isar.isar_flutter_libs;
+package com.plane.so;
 
 import androidx.annotation.NonNull;
 
