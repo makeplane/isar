@@ -27,6 +27,6 @@ class MarkdownViewer extends ConsumerWidget {
           launchUrlString(url);
         }
       },
-    );
+     );
   }
 }
